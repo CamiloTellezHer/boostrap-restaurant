@@ -1,0 +1,117 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+header h1{
+    background-color: #383636;
+    text-align: center;
+    color: rgb(228, 221, 221);
+    font-size: 35px;
+    height: 250px;
+}
+.padre{
+    height: auto;
+    font-size: 23px;
+/*     display: flex;
+    flex-wrap: wrap; */
+}
+img{
+    height: 1950px;
+    width: 40%;
+    position: absolute;
+    opacity: 0.4;
+}
+.img1{
+    height: 1950px; 
+    width: 40%;
+    position: absolute;
+    opacity: 0.4;
+}
+
+.comidas{
+    color: rgb(255, 255, 255);
+    background-color: black;
+    padding-right: 10%;
+    height: 1950px;
+    display: grid;
+    margin: 66px;
+}
+.comd_izq{
+    color: rgb(255, 255, 255);
+    background-color: black;
+    margin-top: 1000px;
+    width: 100px;
+    height: 1950px; 
+    padding-left: 20px;
+}
+
+.tit{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.ing{
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.ingre{
+    text-align: center;
+    font-size: 25px;
+    margin-top: 25px;
+}
+body{
+    background-image: url(../img/Texture1366x768.jpg);
+    width: 100%;
+}
+.com1{
+    position: relative;
+}
+.nom{
+    color: white;
+    font-size: 22px;
+}
+.logo{
+    height: 150px;
+    width: 150px;
+    margin-top: 6%;
+    margin-left: 2%;
+}
+ @media(min-width: 200px)and (max-width: 1150px){
+    .comidas{
+        color: rgb(255, 255, 255);
+        background-color: rgb(0, 0, 0);
+        margin-left: 9px;
+        height: 1700px; 
+        width: 95%;
+        font-size: 17px;
+    }
+    .comd_izq{
+        color: rgb(255, 255, 255);
+        margin-left: 10px;
+        background-color: rgb(0, 0, 0);
+        height: 1730px;
+        width: 50%;
+        font-size: 17px;
+        margin-bottom: 40px;
+    }    
+    img{
+        height: 1700px;
+        width: 100%;
+        position: absolute;
+        opacity: 0.4;
+    }
+    .img1{
+        height: 1730px;
+        width: 80%;
+        position: absolute;
+        opacity: 0.4;
+    }
+    .logo{
+        height: 150px;
+        width: 150px;
+        margin-top: 76px;
+        margin-left: 2%;
+    }
+    .ing{
+        font-size: 17px;
+        font-family: 'Courier New', Courier, monospace;
+    }
+} 

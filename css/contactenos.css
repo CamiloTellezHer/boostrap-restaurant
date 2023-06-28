@@ -1,0 +1,46 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+header h1{
+    background-color: #383636;
+    text-align: center;
+    color: rgb(228, 221, 221);
+    font-size: 35px;
+}
+body{
+    background-image: url(../img/Texture1366x768.jpg);
+}
+.contacto{
+    text-align: center;
+    color: rgb(0, 0, 0);
+    padding-bottom: 2%;
+}
+.formulari{
+    width: 260px;
+    height: 500px;
+    margin: auto;
+    background-color: #272525;
+    margin-bottom: 50px;
+    padding: 20px;
+}
+.espacio{
+    margin: 20px;
+}
+textarea{
+    width: 220px;
+}
+ input, textarea{
+    padding-top: 10%;
+    margin: 50px;
+    margin-top: 50px;
+} 
+.nom{
+    color: white;
+    font-size: 22px;
+}
+.logo{
+    height: 150px;
+    width: 150px;
+    margin: 2%;
+}

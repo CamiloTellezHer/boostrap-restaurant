@@ -1,0 +1,36 @@
+
+h2{
+    text-align: center;
+}
+.frase{
+    font-size: 20px;
+}
+.reservar{
+    font-size: 20px;
+    margin: 10px;
+    width: auto;
+    height: 100px;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+.table{
+    text-align: center;
+    background-color: rgb(226, 216, 201);
+}
+.boton{
+    margin-left: 60%;
+    
+}
+select, input{
+    width: 200px;
+}
+@media(min_width:600px) and(max-width:1300px){
+    .reservar{
+        font-size: 20px;
+        margin: 10px;
+        width: auto;
+        height: 100px;
+        margin-right: 50%;
+   }
+}
+    
